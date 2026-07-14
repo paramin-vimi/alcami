@@ -540,4 +540,6 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 600; line-height: 1.0
   .steps { grid-template-columns: 1fr; }
   .quickbar { display: block; }
   .totop { bottom: 5.4rem; }
+  /* reserve room so the footer (incl. Privacy Policy) clears the sticky quote bar */
+  .footer { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
 }
